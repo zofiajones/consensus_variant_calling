@@ -24,7 +24,9 @@ Output: confident_0.vcf, confident_1.vcf, confident_2.vcf, confident_3.vcf and c
 Then run: run_get_vcf.sh to map variants onto NGS diagnostic panels, combine with ddPCR validated variants
  and get final_confident_1.vcf -> shiny browser
 
-Example final output:
+Example final output for end users: example.vcf
+
+Example final combined output uniq_all.txt:
 gtb     name    outlier0        ploidy  rel_error       res0    res1    test    test_alt        test_round      val     val0    washu   file    blend   RKOcov  HCT116cov       SW48cov 701cov       GTBcov  variants        conf
 0.90625 ;chr19@3119184@T@G;GNA11        0.0     0@2@0   0.006940000000000001    0.00625 0.0157  0.90698 0.9     0.9     0.90625 0.8843  NS      0.0     0.0     221.0   257.0   136.0   749.0352.0   chr19@3119184@T@G       0
 NS      ;chr16@89836507@T@C;FANCA       1.0     0@3@0   0.00541 0.00487 0.00487 0.93982 0.93333 0.9     0.89513 0.89513 0.89513 3.0     0.0     226.0   443.0   151.0   534.0   NS      chr16@89836507@T@C   0
