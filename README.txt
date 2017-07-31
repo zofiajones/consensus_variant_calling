@@ -3,7 +3,7 @@ blends variant freq from parental cell lines and finds rel error to product data
 README
  run_scores.sh – run script
 quick_check.sh – collect raw data from vcf files
-match_variants_4.sh – combine variant calls from parentals and products
+match_variants_4.sh – combine variant calls from parentals and products, one line per genomic location
 match_base.sh – clean out useless lines, get backend file for checking indel partial matches
 match_bases.py – get SNPS, and one base indels, and also match up longer indels
 parse_results_1.sh – further tidying of longer indels
