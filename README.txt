@@ -32,3 +32,8 @@ NS      ;chr7@128843169@C@T;SMO 0.0     3@2@0   0.02901 0.02466 0.02466 0.859379
 0.29213 ;chr19@40743956@G@A;AKT2        0.0     0@0@2   0.05906 0.01919 0.02837 0.36507 0.325   0.325   0.30581 0.29663 NS      0.0     0.0     117.0   120.0   73.0    1046.0  89.0    chr19@40743956@G@A   0
 0.20513 ;chr7@55228053@A@T;EGFR 0.0     3@0@0   0.17949 0.04487 0.06402000000000001     0.26111 0.25    0.25    0.20513 0.18598 NS      0.0     0.0     27.0    30.0    26.0    892.0   234.0chr7@55228053@A@T       1
 
+Intermediate files:
+
+request_variants_fb.txt - variant call info, one line per genomic location, parentals and product
+scores.csv - blending scores
+multi.txt - partial matches for indels
