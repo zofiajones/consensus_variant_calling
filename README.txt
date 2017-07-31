@@ -17,8 +17,12 @@ get_blend_1.py – get blending scores for SNPs, allow some flexibility in ploid
 get_blend_2.py – get blending scores for SNPs, strictly take best fit to a ploidy of either 2 or 3
 sort_scores.sh – combine outputs of get_blend_1.py, get_blend_2.py, get_blend_3.py and get_blend_4.py
 annotate_genes.sh – add gene info
-make_dataframe.py – combine data from other variant callers and finds final blending errors
+make_dataframe.py – combine data from other variant callers (outputs of sort_scores.sh in other directories) and finds final blending errors
 run_annotate_tier.sh – divide total dataset into confidence tiers.  Add annotations from COSMIC, dbSNP and info from customer data
+
+Output: confident_0.vcf, confident_1.vcf, confident_2.vcf, confident_3.vcf and confident_4.vcf
+Then run: run_get_vcf.sh to map variants onto NGS diagnostic panels, combine with ddPCR validated variants
+ and get final_confident_1.vcf -> shiny browser
 
 Example final output:
 gtb     name    outlier0        ploidy  rel_error       res0    res1    test    test_alt        test_round      val     val0    washu   file    blend   RKOcov  HCT116cov       SW48cov 701cov       GTBcov  variants        conf
