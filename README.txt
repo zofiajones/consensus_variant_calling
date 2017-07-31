@@ -17,7 +17,7 @@ get_blend_1.py – get blending scores for SNPs, allow some flexibility in ploid
 get_blend_2.py – get blending scores for SNPs, strictly take best fit to a ploidy of either 2 or 3
 sort_scores.sh – combine outputs of get_blend_1.py, get_blend_2.py, get_blend_3.py and get_blend_4.py
 annotate_genes.sh – add gene info
-make_dataframe.py – combine data from other variant callers
+make_dataframe.py – combine data from other variant callers and finds final blending errors
 run_annotate_tier.sh – divide total dataset into confidence tiers.  Add annotations from COSMIC, dbSNP and info from customer data
 
 Example final output:
